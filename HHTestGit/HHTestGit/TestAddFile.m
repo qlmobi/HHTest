@@ -10,4 +10,8 @@
 
 @implementation TestAddFile
 
+-(void)tttt
+{
+    
+}
 @end
