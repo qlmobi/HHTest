@@ -13,6 +13,7 @@
 		1075972F21FC2EF000DB9130 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1075972E21FC2EF000DB9130 /* Assets.xcassets */; };
 		1075973221FC2EF000DB9130 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1075973021FC2EF000DB9130 /* LaunchScreen.storyboard */; };
 		1075973521FC2EF000DB9130 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1075973421FC2EF000DB9130 /* main.m */; };
+		1075973D21FC2F8A00DB9130 /* TestAddFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 1075973C21FC2F8A00DB9130 /* TestAddFile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		1075973121FC2EF000DB9130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1075973321FC2EF000DB9130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1075973421FC2EF000DB9130 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1075973B21FC2F8A00DB9130 /* TestAddFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestAddFile.h; sourceTree = "<group>"; };
+		1075973C21FC2F8A00DB9130 /* TestAddFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAddFile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				1075973021FC2EF000DB9130 /* LaunchScreen.storyboard */,
 				1075973321FC2EF000DB9130 /* Info.plist */,
 				1075973421FC2EF000DB9130 /* main.m */,
+				1075973B21FC2F8A00DB9130 /* TestAddFile.h */,
+				1075973C21FC2F8A00DB9130 /* TestAddFile.m */,
 			);
 			path = HHTestGit;
 			sourceTree = "<group>";
@@ -142,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1075972A21FC2EF000DB9130 /* ViewController.m in Sources */,
+				1075973D21FC2F8A00DB9130 /* TestAddFile.m in Sources */,
 				1075973521FC2EF000DB9130 /* main.m in Sources */,
 				1075972721FC2EF000DB9130 /* AppDelegate.m in Sources */,
 			);
