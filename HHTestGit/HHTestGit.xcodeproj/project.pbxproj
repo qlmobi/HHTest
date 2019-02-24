@@ -15,6 +15,7 @@
 		1075973521FC2EF000DB9130 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1075973421FC2EF000DB9130 /* main.m */; };
 		1075973D21FC2F8A00DB9130 /* TestAddFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 1075973C21FC2F8A00DB9130 /* TestAddFile.m */; };
 		1077B7A02222741100672E9A /* HHUserBean.m in Sources */ = {isa = PBXBuildFile; fileRef = 1077B79F2222741100672E9A /* HHUserBean.m */; };
+		1077B7A3222277FC00672E9A /* HHAllData.m in Sources */ = {isa = PBXBuildFile; fileRef = 1077B7A2222277FC00672E9A /* HHAllData.m */; };
 		9D3A14A3A9F4190B16A2D064 /* libPods-HHTestGit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29AC78AB36B7D3600A1648F5 /* libPods-HHTestGit.a */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,8 @@
 		1075973C21FC2F8A00DB9130 /* TestAddFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestAddFile.m; sourceTree = "<group>"; };
 		1077B79E2222741100672E9A /* HHUserBean.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHUserBean.h; sourceTree = "<group>"; };
 		1077B79F2222741100672E9A /* HHUserBean.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHUserBean.m; sourceTree = "<group>"; };
+		1077B7A1222277FC00672E9A /* HHAllData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HHAllData.h; sourceTree = "<group>"; };
+		1077B7A2222277FC00672E9A /* HHAllData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHAllData.m; sourceTree = "<group>"; };
 		29AC78AB36B7D3600A1648F5 /* libPods-HHTestGit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HHTestGit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6FDFC6236CA3785FE920FB0D /* Pods-HHTestGit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHTestGit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HHTestGit/Pods-HHTestGit.debug.xcconfig"; sourceTree = "<group>"; };
 		F4EAFCCAA7A61D9D019D47B1 /* Pods-HHTestGit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HHTestGit.release.xcconfig"; path = "Pods/Target Support Files/Pods-HHTestGit/Pods-HHTestGit.release.xcconfig"; sourceTree = "<group>"; };
@@ -84,6 +87,8 @@
 				1075973C21FC2F8A00DB9130 /* TestAddFile.m */,
 				1077B79E2222741100672E9A /* HHUserBean.h */,
 				1077B79F2222741100672E9A /* HHUserBean.m */,
+				1077B7A1222277FC00672E9A /* HHAllData.h */,
+				1077B7A2222277FC00672E9A /* HHAllData.m */,
 			);
 			path = HHTestGit;
 			sourceTree = "<group>";
@@ -235,6 +240,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1075972A21FC2EF000DB9130 /* ViewController.m in Sources */,
+				1077B7A3222277FC00672E9A /* HHAllData.m in Sources */,
 				1077B7A02222741100672E9A /* HHUserBean.m in Sources */,
 				1075973D21FC2F8A00DB9130 /* TestAddFile.m in Sources */,
 				1075973521FC2EF000DB9130 /* main.m in Sources */,
