@@ -8,6 +8,14 @@
 
 #import "ViewController.h"
 
+//#define WY_IgnoredPerformSelectorLeakWarning(function) \
+//do { \
+//_Pragma("clang diagnostic push") \
+//_Pragma("clang diagnostic ignored \"-Warc-performSelector-leaks\"") \
+//function; \
+//_Pragma("clang diagnostic pop") \
+//} while (0) \
+
 @interface ViewController ()
 
 @end
@@ -17,6 +25,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+  
+        
 }
 
 
